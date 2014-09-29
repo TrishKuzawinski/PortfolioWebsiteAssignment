@@ -100,6 +100,9 @@
     color: #8f8686;
     letter-spacing: 0.5px;
 }
+#content p.mainContent {
+    max-width: 900px;
+}
 #content p.bio {
     max-width: 680px;
 }
