@@ -1,0 +1,138 @@
+﻿body {
+    background-color: #464444;
+}
+#sidebar {
+    max-width: 460px;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    z-index: 1000;
+    padding: 50px 60px;
+    display: block;
+    position: fixed;
+    float: left;
+}
+#siteTitle h1 {
+    color: #2f2e2e;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+#menu ul li {
+    list-style-type: none;
+    padding-top: 3.5px;
+    letter-spacing: 1.5px;
+}
+#menu ul li.navTitle {
+    text-transform: uppercase;
+    color: #808080;
+    letter-spacing: 2.5px;
+    padding-bottom: 5px;
+    font-size: 16.5px;
+}
+#menu ul li a {
+    color: #fff;
+}
+#menu ul li a:hover {
+    color: #808080;
+    -webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
+}
+#menu ul li a.currentLink {
+    color:#808080;
+}
+#menu ul li a.currentLink:hover {
+    color: #fff;
+    -webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
+}
+@media (max-width: 960px) {
+    #sidebar {
+        padding: 10px 20px;
+    }
+    #siteTitle h1 {
+        font-size: 25px;
+    }
+    #menu ul li.navTitle {
+        font-size: 14px;
+    }
+    #menu ul li a {
+        font-size: 12px;
+    }
+    #menu li.aboutContent p {
+        font-size: 12px;
+    }
+    #logo img {
+        width: 165px;
+        height: 165px;
+    }
+}
+#logo img {
+    opacity: 0.5;
+    padding-top: 30px;
+}
+#logo img:hover {
+    opacity: 100;
+}
+#copyright p {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14.5px;
+}
+#content{
+    margin-top: auto;
+    padding-top: 20px;
+}
+#content h2, h3 {
+    font-family: 'Century Gothic';
+    color: #232020;
+}
+#content p {
+    font-family: 'Tahoma';
+    color: #8f8686;
+    letter-spacing: 0.5px;
+}
+#content p.bio {
+    max-width: 680px;
+}
+#content p.service {
+    max-width: 600px;
+}
+#content p.service a {
+    color: #232020;
+}
+#content p.service a:hover {
+    color: #fff;
+    -webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
+}
+#content img {
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+#content img.trish {
+    width: 300px;
+    height: 400px;
+    padding-right: 10px;
+    padding-top: 10px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+#content img:hover {
+    opacity: 100;
+}
